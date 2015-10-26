@@ -16,7 +16,7 @@ output file name (JNB's Zengin-format)
 #### -v
 verbose (prints records and fields of the input file)
 
-#### -d [MMYY]
+#### -d [MMDD]
 update date when output (convert) to the file
 
 #### --help or /?

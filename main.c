@@ -247,7 +247,7 @@ void show_help() {
 		"options:\n"
 		"  -o [filename]  output file name (JNB's Zengin-format)\n"
 		"  -v             verbose (prints records and fields of the input file)\n"
-		"  -d [MMYY]      update date when output (convert) to the file\n"
+		"  -d [MMDD]      update date when output (convert) to the file\n"
 		"  --help or /?   shows this help message\n"
 		"\n"
 		"filename:\n"
