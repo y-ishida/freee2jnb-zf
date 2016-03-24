@@ -1,5 +1,13 @@
-all: freee2jnb-zf.exe
+ifeq ($(OS),Windows_NT)
+	ext = .exe
+else
+	ext =
+endif
 
-freee2jnb-zf.exe: main.c
-	gcc -o freee2jnb-zf.exe $^
+all: freee2jnb-zf$(ext)
+
+freee2jnb-zf$(ext): main.c
+	gcc -o $@ $^
+
+
 
